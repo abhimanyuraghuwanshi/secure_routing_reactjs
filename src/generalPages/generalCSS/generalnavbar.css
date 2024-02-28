@@ -1,0 +1,30 @@
+
+.navbar {
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  color: white;
+  width: 100%;
+}
+
+.links {
+  display: flex;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 2px;
+}
+
+.links a:last-child {
+  margin-right: 0;
+}
+
+.logo img {
+  width: 150px; 
+  height: 50px; 
+}
